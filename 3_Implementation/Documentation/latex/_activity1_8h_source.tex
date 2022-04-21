@@ -1,0 +1,22 @@
+\hypertarget{_activity1_8h_source}{}\doxysection{Activity1.\+h}
+\label{_activity1_8h_source}\index{D:/M2\_AutomobileClimateControl/3\_Implementation/inc/Activity1.h@{D:/M2\_AutomobileClimateControl/3\_Implementation/inc/Activity1.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#ifndef ACTIVITY1\_H\_INCLUDED}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#define ACTIVITY1\_H\_INCLUDED}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <avr/io.h>}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include<util/delay.h>}}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#define SEAT\_CHECK !(PIND \&(1<<PD1))}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#define HEATER\_ON (PIND \&(1<<PD2))}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#define HEATER\_OFF PORTD\&=\string~(1<<PD2)}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#define LED\_ON PORTD|=(1<<PD0)}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#define LED\_OFF PORTD \&=\string~(1<<PD0)}}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17 \textcolor{keywordtype}{void} SEAT\_CHECKING();}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// ACTIVITY1\_H\_INCLUDED}}
+
+\end{DoxyCode}

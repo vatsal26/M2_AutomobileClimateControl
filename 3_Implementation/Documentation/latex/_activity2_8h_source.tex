@@ -1,0 +1,25 @@
+\hypertarget{_activity2_8h_source}{}\doxysection{Activity2.\+h}
+\label{_activity2_8h_source}\index{D:/M2\_AutomobileClimateControl/3\_Implementation/inc/Activity2.h@{D:/M2\_AutomobileClimateControl/3\_Implementation/inc/Activity2.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#ifndef ACTIVITY2\_H\_INCLUDED}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#define ACTIVITY2\_H\_INCLUDED}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <avr/io.h>}         \textcolor{comment}{/*  AVR std. library file */}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include <util/delay.h>}     \textcolor{comment}{/* Delay header file */}}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#define LCD\_DIRECTION  DDRB     }\textcolor{comment}{/* Define LCD data port direction */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#define PORT\_B PORTB            }\textcolor{comment}{/* Define LCD data port */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#define LCD\_RS PB2              }\textcolor{comment}{/* Define Register Select pin */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#define LCD\_EN PB3              }\textcolor{comment}{/* Define Enable signal pin */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16 \textcolor{keywordtype}{void} LCD\_CMD( \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{char} command );}
+\DoxyCodeLine{17 \textcolor{keywordtype}{void} LCD\_CHAR\_WISE( \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{char} ch );}
+\DoxyCodeLine{18 \textcolor{keywordtype}{void} LCD\_INITIALIZATION(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{19 \textcolor{keywordtype}{void} LCD\_DISPLAY (\textcolor{keywordtype}{char} *temperature\_value);}
+\DoxyCodeLine{20 \textcolor{keywordtype}{void} CLEAR\_LCD();}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// ACTIVITY2\_H\_INCLUDED}}
+
+\end{DoxyCode}

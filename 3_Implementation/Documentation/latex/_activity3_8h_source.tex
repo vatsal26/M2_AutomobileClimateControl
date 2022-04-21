@@ -1,0 +1,23 @@
+\hypertarget{_activity3_8h_source}{}\doxysection{Activity3.\+h}
+\label{_activity3_8h_source}\index{D:/M2\_AutomobileClimateControl/3\_Implementation/inc/Activity3.h@{D:/M2\_AutomobileClimateControl/3\_Implementation/inc/Activity3.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#ifndef ACTIVITY3\_H\_INCLUDED}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#define ACTIVITY3\_H\_INCLUDED}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include<avr/io.h>}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}util/delay.h"{}}}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#define TIMER1\_FAST\_PWM TCCR1A|=(1<<COM1A1)|(1<<WGM10)|(1<<WGM11)}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#define TIMER\_PRESCALER\_AS\_64 TCCR1B|=(1<<WGM12)|(1<<CS11)|(1<<CS10)}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#define PWM\_OUTPUT\_PIN DDRB|=(1<<PB1)}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15 uint16\_t SENSE\_ADC(uint8\_t channel);}
+\DoxyCodeLine{16 \textcolor{keywordtype}{void} ADC\_INITIALIZATION();}
+\DoxyCodeLine{17 \textcolor{keywordtype}{void} TIMER\_INITIALIZATION(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{18 \textcolor{keywordtype}{void} PWM\_OUPUT(uint16\_t ADC\_READING);}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// ACTIVITY3\_H\_INCLUD}}
+
+\end{DoxyCode}

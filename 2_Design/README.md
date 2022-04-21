@@ -2,10 +2,10 @@
 
 # BLOCK DIAGRAM
 
-
+![Blockdiagram](https://github.com/vatsal26/M2_AutomobileClimateMonitor/blob/main/2_Design/BlockDiagram.png)
 
 # FLOW CHART
-
+![Flowchart](https://github.com/vatsal26/M2_AutomobileClimateMonitor/blob/main/2_Design/Flowchart.png)
 
 # SENSOR
 

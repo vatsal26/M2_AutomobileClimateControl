@@ -9,7 +9,7 @@
 
 # SENSOR
 
-# Temperature sensor (Thermistor or Heat sensor
+# Temperature sensor (Thermistor or Heat sensor)
 
 * Thermistors are a very accurate and price- powerful sensor for measuring temperature.it is the NTC thermistor this is normally used to measure temperature
 Resistence produces alternate in voltage, this voltage is taken as input to micro controller.

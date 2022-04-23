@@ -19,3 +19,16 @@
 
 ## SWOT 
 ![SWOT](https://github.com/vatsal26/M2_AutomobileTempreatureMonitor/blob/main/1_Requirements/SWOT.png)
+
+## 5Ws and 1H
+WHAT : Temperature Monitoring System 
+
+WHERE : Used in Automotive Industries 
+
+WHEN : At low Temperature
+
+WHY: For temperature monitoring and adjusting the temperature effectively.
+
+WHO: Anyone with Car . 
+
+HOW:Can be installed from aftermarket shops at decent rates

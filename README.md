@@ -7,6 +7,10 @@ Code Grade : ![codinga](https://api.codiga.io/project/32933/status/svg)
 
 Analysis : [![Analysis](https://github.com/vatsal26/M2_AutomobileTempreatureMonitor/actions/workflows/Analysis.yml/badge.svg)](https://github.com/vatsal26/M2_AutomobileTempreatureMonitor/actions/workflows/Analysis.yml)
 
+Unity : [![Unit testing](https://github.com/vatsal26/M2_AutomobileTempreatureMonitor/actions/workflows/unit-test.yml/badge.svg)](https://github.com/vatsal26/M2_AutomobileTempreatureMonitor/actions/workflows/unit-test.yml)
+
+Build : [![Build CI -Linux](https://github.com/vatsal26/M2_AutomobileTempreatureMonitor/actions/workflows/build.yml/badge.svg)](https://github.com/vatsal26/M2_AutomobileTempreatureMonitor/actions/workflows/build.yml)
+
 ## Folder Structure
 |`Folder`|`Contents or Description`|
 |------|--------|

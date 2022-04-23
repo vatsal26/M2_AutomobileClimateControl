@@ -16,3 +16,6 @@
 |LL03 |ADC and PWM |
 |LL04 |LM35 and ADC |
 |LL05 |Atmega-328 |
+
+## SWOT 
+![SWOT](https://github.com/vatsal26/M2_AutomobileTempreatureMonitor/blob/main/1_Requirements/SWOT.png)
